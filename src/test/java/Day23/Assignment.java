@@ -12,7 +12,7 @@ public class Assignment  {
 		driver.get("https://demo.nopcommerce.com");
 		driver.manage().window().maximize();
 		
-		// Tagname 
+		// tag name adding new comment 
 		
 //		driver.findElement(By.cssSelector("input#newsletter-email")).sendKeys("Phone");
 //		
