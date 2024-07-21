@@ -1,65 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-20T16:03:23 IST" name="Default suite" finished-at="2024-07-20T16:03:23 IST" duration-ms="45">
+  <suite started-at="2024-07-21T17:11:19 IST" name="NewSuite" finished-at="2024-07-21T17:11:19 IST" duration-ms="40">
     <groups>
+      <group name="Functional">
+        <method signature="GroupingDemo3.TestLogin()[pri:1, instance:Day44.GroupingDemo3@72057ecf]" name="TestLogin" class="Day44.GroupingDemo3"/>
+        <method signature="GroupingDemo3.TestLogout()[pri:3, instance:Day44.GroupingDemo3@72057ecf]" name="TestLogout" class="Day44.GroupingDemo3"/>
+        <method signature="GroupingDemo3.TestSearch()[pri:2, instance:Day44.GroupingDemo3@72057ecf]" name="TestSearch" class="Day44.GroupingDemo3"/>
+      </group> <!-- Functional -->
+      <group name="Regression">
+        <method signature="GroupingDemo3.TestLogin()[pri:1, instance:Day44.GroupingDemo3@72057ecf]" name="TestLogin" class="Day44.GroupingDemo3"/>
+        <method signature="GroupingDemo3.TestLogout()[pri:3, instance:Day44.GroupingDemo3@72057ecf]" name="TestLogout" class="Day44.GroupingDemo3"/>
+        <method signature="GroupingDemo3.TestSearch()[pri:2, instance:Day44.GroupingDemo3@72057ecf]" name="TestSearch" class="Day44.GroupingDemo3"/>
+      </group> <!-- Regression -->
+      <group name="Sanitary">
+        <method signature="GroupingDemo3.TestLogin()[pri:1, instance:Day44.GroupingDemo3@72057ecf]" name="TestLogin" class="Day44.GroupingDemo3"/>
+        <method signature="GroupingDemo3.TestLogout()[pri:3, instance:Day44.GroupingDemo3@72057ecf]" name="TestLogout" class="Day44.GroupingDemo3"/>
+        <method signature="GroupingDemo3.TestSearch()[pri:2, instance:Day44.GroupingDemo3@72057ecf]" name="TestSearch" class="Day44.GroupingDemo3"/>
+      </group> <!-- Sanitary -->
     </groups>
-    <test started-at="2024-07-20T16:03:23 IST" name="Default test" finished-at="2024-07-20T16:03:23 IST" duration-ms="45">
-      <class name="Day43.CombinedAnnot2">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="BeforeSuite" finished-at="2024-07-20T16:03:23 IST" duration-ms="7" status="PASS">
+    <test started-at="2024-07-21T17:11:19 IST" name="NewTest" finished-at="2024-07-21T17:11:19 IST" duration-ms="40">
+      <class name="Day44.GroupingDemo3">
+        <test-method signature="TestLogin()[pri:1, instance:Day44.GroupingDemo3@72057ecf]" started-at="2024-07-21T17:11:19 IST" name="TestLogin" finished-at="2024-07-21T17:11:19 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="BeforeSearch()[pri:0, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="BeforeSearch" finished-at="2024-07-20T16:03:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeSearch -->
-        <test-method is-config="true" signature="TestAdvance()[pri:0, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="TestAdvance" finished-at="2024-07-20T16:03:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestAdvance -->
-        <test-method signature="Testlogin()[pri:1, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="Testlogin" finished-at="2024-07-20T16:03:23 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testlogin -->
-        <test-method is-config="true" signature="TestAfterSearch()[pri:0, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="TestAfterSearch" finished-at="2024-07-20T16:03:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestAfterSearch -->
-        <test-method signature="Testlogout()[pri:2, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="Testlogout" finished-at="2024-07-20T16:03:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testlogout -->
-        <test-method is-config="true" signature="TestAdvance()[pri:0, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="TestAdvance" finished-at="2024-07-20T16:03:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestAdvance -->
-        <test-method is-config="true" signature="TestAfterSearch()[pri:0, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="TestAfterSearch" finished-at="2024-07-20T16:03:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestAfterSearch -->
-        <test-method is-config="true" signature="TestAdvance()[pri:0, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="TestAdvance" finished-at="2024-07-20T16:03:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestAdvance -->
-        <test-method signature="TestSearch()[pri:3, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="TestSearch" finished-at="2024-07-20T16:03:23 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- TestLogin -->
+        <test-method signature="TestSearch()[pri:2, instance:Day44.GroupingDemo3@72057ecf]" started-at="2024-07-21T17:11:19 IST" name="TestSearch" finished-at="2024-07-21T17:11:19 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSearch -->
-        <test-method is-config="true" signature="TestAfterSearch()[pri:0, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="TestAfterSearch" finished-at="2024-07-20T16:03:23 IST" duration-ms="0" status="PASS">
+        <test-method signature="TestLogout()[pri:3, instance:Day44.GroupingDemo3@72057ecf]" started-at="2024-07-21T17:11:19 IST" name="TestLogout" finished-at="2024-07-21T17:11:19 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestAfterSearch -->
-        <test-method is-config="true" signature="AfterSearchClass()[pri:0, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="AfterSearchClass" finished-at="2024-07-20T16:03:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterSearchClass -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:Day43.CombinedAnnot2@1fa268de]" started-at="2024-07-20T16:03:23 IST" name="AfterSuite" finished-at="2024-07-20T16:03:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterSuite -->
-      </class> <!-- Day43.CombinedAnnot2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- TestLogout -->
+      </class> <!-- Day44.GroupingDemo3 -->
+    </test> <!-- NewTest -->
+  </suite> <!-- NewSuite -->
 </testng-results>
