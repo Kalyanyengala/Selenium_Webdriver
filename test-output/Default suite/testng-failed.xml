@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Day44.DemoDependc$DependenciesDemo">
+      <class name="Day46.SampleListenersClassDemo">
         <methods>
-          <include name="TestSearch"/>
-          <include name="TestLogin"/>
-          <include name="TestLogout"/>
+          <include name="TestTitle"/>
+          <include name="TestSetUp"/>
+          <include name="TestGetURL"/>
         </methods>
-      </class> <!-- Day44.DemoDependc$DependenciesDemo -->
+      </class> <!-- Day46.SampleListenersClassDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
